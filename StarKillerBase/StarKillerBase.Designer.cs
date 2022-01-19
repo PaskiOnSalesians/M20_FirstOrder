@@ -34,16 +34,18 @@ namespace StarKillerBase
             this.pctbox_base = new System.Windows.Forms.PictureBox();
             this.pnl_interactive = new System.Windows.Forms.Panel();
             this.pnl_info = new System.Windows.Forms.Panel();
-            this.pnl_image = new System.Windows.Forms.Panel();
             this.pnl_text = new System.Windows.Forms.Panel();
-            this.pctbox_detail = new System.Windows.Forms.PictureBox();
             this.txtbox_info = new System.Windows.Forms.RichTextBox();
+            this.pnl_image_title = new System.Windows.Forms.Panel();
+            this.pctbox_detail = new System.Windows.Forms.PictureBox();
+            this.pnl_image = new System.Windows.Forms.Panel();
+            this.pnl_title = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pctbox_base)).BeginInit();
             this.pnl_interactive.SuspendLayout();
             this.pnl_info.SuspendLayout();
-            this.pnl_image.SuspendLayout();
             this.pnl_text.SuspendLayout();
+            this.pnl_image_title.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pctbox_detail)).BeginInit();
             this.SuspendLayout();
             // 
@@ -88,20 +90,11 @@ namespace StarKillerBase
             // pnl_info
             // 
             this.pnl_info.Controls.Add(this.pnl_text);
-            this.pnl_info.Controls.Add(this.pnl_image);
-            this.pnl_info.Location = new System.Drawing.Point(603, 62);
+            this.pnl_info.Controls.Add(this.pnl_image_title);
+            this.pnl_info.Location = new System.Drawing.Point(509, 62);
             this.pnl_info.Name = "pnl_info";
-            this.pnl_info.Size = new System.Drawing.Size(399, 516);
+            this.pnl_info.Size = new System.Drawing.Size(493, 516);
             this.pnl_info.TabIndex = 3;
-            // 
-            // pnl_image
-            // 
-            this.pnl_image.Controls.Add(this.pctbox_detail);
-            this.pnl_image.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnl_image.Location = new System.Drawing.Point(0, 0);
-            this.pnl_image.Name = "pnl_image";
-            this.pnl_image.Size = new System.Drawing.Size(399, 241);
-            this.pnl_image.TabIndex = 0;
             // 
             // pnl_text
             // 
@@ -109,17 +102,8 @@ namespace StarKillerBase
             this.pnl_text.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnl_text.Location = new System.Drawing.Point(0, 241);
             this.pnl_text.Name = "pnl_text";
-            this.pnl_text.Size = new System.Drawing.Size(399, 275);
+            this.pnl_text.Size = new System.Drawing.Size(493, 275);
             this.pnl_text.TabIndex = 1;
-            // 
-            // pctbox_detail
-            // 
-            this.pctbox_detail.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pctbox_detail.Location = new System.Drawing.Point(0, 0);
-            this.pctbox_detail.Name = "pctbox_detail";
-            this.pctbox_detail.Size = new System.Drawing.Size(399, 241);
-            this.pctbox_detail.TabIndex = 0;
-            this.pctbox_detail.TabStop = false;
             // 
             // txtbox_info
             // 
@@ -128,9 +112,45 @@ namespace StarKillerBase
             this.txtbox_info.ForeColor = System.Drawing.Color.White;
             this.txtbox_info.Location = new System.Drawing.Point(0, 0);
             this.txtbox_info.Name = "txtbox_info";
-            this.txtbox_info.Size = new System.Drawing.Size(399, 275);
+            this.txtbox_info.Size = new System.Drawing.Size(493, 275);
             this.txtbox_info.TabIndex = 0;
             this.txtbox_info.Text = "";
+            // 
+            // pnl_image_title
+            // 
+            this.pnl_image_title.Controls.Add(this.pnl_title);
+            this.pnl_image_title.Controls.Add(this.pnl_image);
+            this.pnl_image_title.Controls.Add(this.pctbox_detail);
+            this.pnl_image_title.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnl_image_title.Location = new System.Drawing.Point(0, 0);
+            this.pnl_image_title.Name = "pnl_image_title";
+            this.pnl_image_title.Size = new System.Drawing.Size(493, 241);
+            this.pnl_image_title.TabIndex = 0;
+            // 
+            // pctbox_detail
+            // 
+            this.pctbox_detail.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pctbox_detail.Location = new System.Drawing.Point(0, 0);
+            this.pctbox_detail.Name = "pctbox_detail";
+            this.pctbox_detail.Size = new System.Drawing.Size(493, 241);
+            this.pctbox_detail.TabIndex = 0;
+            this.pctbox_detail.TabStop = false;
+            // 
+            // pnl_image
+            // 
+            this.pnl_image.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnl_image.Location = new System.Drawing.Point(0, 0);
+            this.pnl_image.Name = "pnl_image";
+            this.pnl_image.Size = new System.Drawing.Size(255, 241);
+            this.pnl_image.TabIndex = 1;
+            // 
+            // pnl_title
+            // 
+            this.pnl_title.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnl_title.Location = new System.Drawing.Point(255, 0);
+            this.pnl_title.Name = "pnl_title";
+            this.pnl_title.Size = new System.Drawing.Size(238, 241);
+            this.pnl_title.TabIndex = 2;
             // 
             // StarKillerBase
             // 
@@ -147,8 +167,8 @@ namespace StarKillerBase
             ((System.ComponentModel.ISupportInitialize)(this.pctbox_base)).EndInit();
             this.pnl_interactive.ResumeLayout(false);
             this.pnl_info.ResumeLayout(false);
-            this.pnl_image.ResumeLayout(false);
             this.pnl_text.ResumeLayout(false);
+            this.pnl_image_title.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pctbox_detail)).EndInit();
             this.ResumeLayout(false);
 
@@ -162,9 +182,11 @@ namespace StarKillerBase
         private System.Windows.Forms.Panel pnl_interactive;
         private System.Windows.Forms.Panel pnl_info;
         private System.Windows.Forms.Panel pnl_text;
+        private System.Windows.Forms.RichTextBox txtbox_info;
+        private System.Windows.Forms.Panel pnl_image_title;
+        private System.Windows.Forms.Panel pnl_title;
         private System.Windows.Forms.Panel pnl_image;
         private System.Windows.Forms.PictureBox pctbox_detail;
-        private System.Windows.Forms.RichTextBox txtbox_info;
     }
 }
 
