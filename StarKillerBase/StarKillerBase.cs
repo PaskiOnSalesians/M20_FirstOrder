@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace StarKillerBase
 {
-    public partial class Form1 : Form
+    public partial class StarKillerBase : Form
     {
-        public Form1()
+        public StarKillerBase()
         {
             InitializeComponent();
+            generatePanels();
+        }
+
+        private void generatePanels()
+        {
+
         }
     }
 }

@@ -1,0 +1,10 @@
+C:\Users\Paski\Documents\GitHub\FirstOrder-Models\StarKillerBase\bin\Debug\StarKillerBase.exe.config
+C:\Users\Paski\Documents\GitHub\FirstOrder-Models\StarKillerBase\bin\Debug\StarKillerBase.exe
+C:\Users\Paski\Documents\GitHub\FirstOrder-Models\StarKillerBase\bin\Debug\StarKillerBase.pdb
+C:\Users\Paski\Documents\GitHub\FirstOrder-Models\StarKillerBase\obj\Debug\StarKillerBase.csproj.AssemblyReference.cache
+C:\Users\Paski\Documents\GitHub\FirstOrder-Models\StarKillerBase\obj\Debug\StarKillerBase.Properties.Resources.resources
+C:\Users\Paski\Documents\GitHub\FirstOrder-Models\StarKillerBase\obj\Debug\StarKillerBase.csproj.GenerateResource.cache
+C:\Users\Paski\Documents\GitHub\FirstOrder-Models\StarKillerBase\obj\Debug\StarKillerBase.csproj.CoreCompileInputs.cache
+C:\Users\Paski\Documents\GitHub\FirstOrder-Models\StarKillerBase\obj\Debug\StarKillerBase.exe
+C:\Users\Paski\Documents\GitHub\FirstOrder-Models\StarKillerBase\obj\Debug\StarKillerBase.pdb
+C:\Users\Paski\Documents\GitHub\FirstOrder-Models\StarKillerBase\obj\Debug\StarKillerBase.StarKillerBase.resources
